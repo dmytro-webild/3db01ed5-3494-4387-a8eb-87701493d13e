@@ -68,7 +68,7 @@ export default function HvacPage() {
           <MetricSplitMediaAbout
             tag="About Us"
             title="Llegamos a tu puerta. Sin esfuerzo."
-            description="AirPro HVAC has been keeping homes and businesses comfortable for nearly two decades. Our certified technicians deliver expert installations, maintenance, and repairs — backed by transparent pricing and a commitment to getting the job done right the first time."
+            description="Aitextoo"
             metrics={[
               {
                 value: "2,500+",
