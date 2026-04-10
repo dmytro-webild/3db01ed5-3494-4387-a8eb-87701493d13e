@@ -58,8 +58,8 @@ export default function HvacPage() {
               { text: "Our Services", href: "#services" },
             ]}
             buttonAnimation="slide-up"
-            videoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUhrqIzikJzQFgBimWgvnkX4XL/uploaded-1775783547455-z86hhn0p.jpg"
-            imageAlt="Warm lifestyle scene with woman and dog in premium interior"
+            videoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUhrqIzikJzQFgBimWgvnkX4XL/uploaded-1775782472936-kz5t8r5n.jpg"
+            imageAlt="Warm morning scene with woman and dog in cozy interior"
             showDimOverlay={true}
           />
         </div>
