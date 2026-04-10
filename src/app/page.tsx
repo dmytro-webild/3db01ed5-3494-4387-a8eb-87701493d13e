@@ -92,8 +92,8 @@ export default function HvacPage() {
             title="Lo que dicen nuestros clientes"
             description="La tranquilidad de saber que sus mascotas están bien nutridas."
             testimonials={[
-              { id: "1", name: "James R.", handle: "Dueño de Labrador", testimonial: "El servicio es impecable y siempre llegan a tiempo.", rating: 5 },
-              { id: "2", name: "Linda M.", handle: "Dueña de Gatitos", testimonial: "Desde que uso el servicio, mi vida es mucho más fácil.", rating: 5 },
+              { id: "1", name: "James R.", handle: "Dueño de Zeus (Labrador)", testimonial: "El servicio es impecable y siempre llegan a tiempo.", rating: 5 },
+              { id: "2", name: "Linda M.", handle: "Dueña de Max (Bulldog Francés)", testimonial: "Se siente como si mi Max tuviese padrastro porque se encargan de todo.", rating: 5 },
             ]}
             showRating={true}
             animationType="slide-up"
