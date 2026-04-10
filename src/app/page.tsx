@@ -31,22 +31,22 @@ export default function HvacPage() {
       <ReactLenis root>
         <div id="nav" data-section="nav">
           <NavbarLayoutFloatingInline
-            brandName="Cartagena Pet Delivery "
+            brandName="AirPro HVAC"
             navItems={[
               { name: "Services", id: "services" },
               { name: "About", id: "about" },
               { name: "Testimonials", id: "testimonials" },
               { name: "Contact", id: "contact" },
             ]}
-            button={{ text: "Hablar por WhatsApp", href: "#contact" }}
+            button={{ text: "Get a Quote", href: "#contact" }}
             animateOnLoad={false}
           />
         </div>
 
         <div id="hero" data-section="hero">
           <HeroOverlay
-            title="Alimento premium. sin esfuerzo. "
-            description="Seleccionamos lo mejor y lo llevamos hasta tu puerta, sin que tengas que pensar en pedidos, tiempos o desplazamientos."
+            title="Premium HVAC Comfort. For Every Morning."
+            description="Professional heating, ventilation, and air conditioning services for homes and businesses. From installations to emergency repairs, we keep your climate perfect year-round."
             avatars={[
               { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/team-1.jpg", alt: "Client" },
               { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/team-2.jpg", alt: "Client" },
@@ -54,11 +54,12 @@ export default function HvacPage() {
             ]}
             avatarText="Trusted by 500+ clients"
             buttons={[
-              { text: "Hablar por WhatsApp", href: "#contact" },
+              { text: "Schedule Service", href: "#contact" },
+              { text: "Our Services", href: "#services" },
             ]}
             buttonAnimation="slide-up"
-            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUhrqIzikJzQFgBimWgvnkX4XL/uploaded-1775786908406-2i7kq60a.jpg"
-            imageAlt="HVAC technician performing system maintenance"
+            videoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUhrqIzikJzQFgBimWgvnkX4XL/uploaded-1775783547455-z86hhn0p.jpg"
+            imageAlt="Warm lifestyle scene with woman and dog in premium interior"
             showDimOverlay={true}
           />
         </div>
@@ -66,8 +67,8 @@ export default function HvacPage() {
         <div id="about" data-section="about">
           <MetricSplitMediaAbout
             tag="About Us"
-            title="Nos encargamos de todo. Tu solo disfrutas "
-            description="Aitextoo"
+            title="Llegamos a tu puerta. Sin esfuerzo."
+            description="AirPro HVAC has been keeping homes and businesses comfortable for nearly two decades. Our certified technicians deliver expert installations, maintenance, and repairs — backed by transparent pricing and a commitment to getting the job done right the first time."
             metrics={[
               {
                 value: "2,500+",                title: "Systems installed and serviced"},
@@ -88,7 +89,7 @@ export default function HvacPage() {
           <FeatureCardOne
             title="Our Services"
             description="From installations to emergency repairs, we have your comfort covered."
-            buttons={[{ text: "Hablar por WhatsApp", href: "#contact" }]}
+            buttons={[{ text: "Get a Quote", href: "#contact" }]}
             buttonAnimation="slide-up"
             features={[
               {
@@ -172,7 +173,7 @@ export default function HvacPage() {
         <div id="faq" data-section="faq">
           <FaqSplitText
             sideTitle="Frequently Asked Questions"
-            buttons={[{ text: "Hablar por WhatsApp", href: "#contact" }]}
+            buttons={[{ text: "Contact Us", href: "#contact" }]}
             buttonAnimation="slide-up"
             faqsAnimation="slide-up"
             textPosition="left"
@@ -199,7 +200,8 @@ export default function HvacPage() {
             title="Ready to Stay Comfortable Year-Round?"
             description="Whether you need a new installation, emergency repair, or routine maintenance — our team is ready to help. Call us today or request a free quote."
             buttons={[
-              { text: "Hablar por WhatsApp", href: "#contact" },
+              { text: "Get a Free Quote", href: "#contact" },
+              { text: "Call (555) 987-6543", href: "tel:5559876543" },
             ]}
             background={{ variant: "plain" }}
             useInvertedBackground={false}
