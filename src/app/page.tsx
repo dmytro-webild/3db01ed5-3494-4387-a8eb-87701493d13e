@@ -67,7 +67,7 @@ export default function HvacPage() {
         <div id="about" data-section="about">
           <MetricSplitMediaAbout
             tag="About Us"
-            title="Reliable Climate Solutions Since 2005"
+            title="Llegamos a tu puerta. Sin esfuerzo."
             description="AirPro HVAC has been keeping homes and businesses comfortable for nearly two decades. Our certified technicians deliver expert installations, maintenance, and repairs — backed by transparent pricing and a commitment to getting the job done right the first time."
             metrics={[
               {
