@@ -45,7 +45,7 @@ export default function HvacPage() {
 
         <div id="hero" data-section="hero">
           <HeroOverlay
-            title="Alimento premium, sin esfuerzo "
+            title="Alimento premium, sin esfuerzo. "
             description="Professional heating, ventilation, and air conditioning services for homes and businesses. From installations to emergency repairs, we keep your climate perfect year-round."
             avatars={[
               { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/team-1.jpg", alt: "Client" },
