@@ -78,9 +78,9 @@ export default function HvacPage() {
             description="Nos encargamos de todo para que tu no tengas que preocuparte por nada. "
             buttons={[{ text: "Hablar por WhatsApp", href: "https://wa.me/573011471991" }]}
             features={[
-              { title: "Elegimos contigo ", description: "pendiente ", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-4.jpg" },
+              { title: "Elegimos contigo ", description: "Te ayudamos a elegir lo mejor según tu peludo. ", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-4.jpg" },
               { title: "Gestionamos todo ", description: "Pedidos, tiempos y seguimiento sin que tu tengas que intervenir. ", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-5.jpg" },
-              { title: "Lo recibes en tu puerta ", description: "Entrega puntual, sin friccion", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-6.jpg" },
+              { title: "Lo recibes en tu puerta ", description: "Recibes puntual y sin largos tiempos de envió. ", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-6.jpg" },
             ]}
             gridVariant="uniform-all-items-equal"
             animationType="slide-up"
