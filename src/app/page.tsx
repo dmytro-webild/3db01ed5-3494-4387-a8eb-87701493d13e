@@ -6,11 +6,13 @@ import NavbarLayoutFloatingInline from "@/components/navbar/NavbarLayoutFloating
 import HeroOverlay from "@/components/sections/hero/HeroOverlay";
 import MetricSplitMediaAbout from "@/components/sections/about/MetricSplitMediaAbout";
 import FeatureCardOne from "@/components/sections/feature/FeatureCardOne";
+import FeatureBorderGlow from "@/components/sections/feature/featureBorderGlow/FeatureBorderGlow";
+import FeatureCardEight from "@/components/sections/feature/FeatureCardEight";
 import TestimonialCardThirteen from "@/components/sections/testimonial/TestimonialCardThirteen";
 import FaqSplitText from "@/components/sections/faq/FaqSplitText";
 import ContactCTA from "@/components/sections/contact/ContactCTA";
 import FooterMedia from "@/components/sections/footer/FooterMedia";
-import { Phone } from "lucide-react";
+import { ShieldCheck, Wrench, DollarSign, Phone } from "lucide-react";
 
 export default function HvacPage() {
   return (
@@ -29,44 +31,54 @@ export default function HvacPage() {
       <ReactLenis root>
         <div id="nav" data-section="nav">
           <NavbarLayoutFloatingInline
-            brandName="Cartagena Pet Delivery"
+            brandName="Cartagena Pet Delivery "
             navItems={[
               { name: "Services", id: "services" },
               { name: "About", id: "about" },
               { name: "Testimonials", id: "testimonials" },
               { name: "Contact", id: "contact" },
             ]}
-            button={{ text: "WhatsApp", href: "https://wa.me/573011471991" }}
+            button={{ text: "Hablar por WhatsApp", href: "#contact" }}
             animateOnLoad={false}
           />
         </div>
 
         <div id="hero" data-section="hero">
           <HeroOverlay
-            title="Alimento premium, sin esfuerzo."
+            title="Alimento premium. sin esfuerzo. "
             description="Seleccionamos lo mejor y lo llevamos hasta tu puerta, sin que tengas que pensar en pedidos, tiempos o desplazamientos."
+            avatars={[
+              { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/team-1.jpg", alt: "Client" },
+              { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/team-2.jpg", alt: "Client" },
+              { src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/team-3.jpg", alt: "Client" },
+            ]}
+            avatarText="Trusted by 500+ clients"
             buttons={[
-              { text: "Hablar por WhatsApp", href: "https://wa.me/573011471991" },
+              { text: "Hablar por WhatsApp", href: "#contact" },
             ]}
             buttonAnimation="slide-up"
             imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUhrqIzikJzQFgBimWgvnkX4XL/uploaded-1775786908406-2i7kq60a.jpg"
-            imageAlt="Premium Pet Food Delivery"
+            imageAlt="HVAC technician performing system maintenance"
             showDimOverlay={true}
-            className="bg-[#0D1B2A]"
-            dimOverlayClassName="bg-gradient-to-r from-[#0D1B2A]/55 to-transparent"
           />
         </div>
 
         <div id="about" data-section="about">
           <MetricSplitMediaAbout
-            title="Asi deberia sentirse cuidar de tu mascota "
-            description="Sin urgencias, sin olvidos, sin interrupciones. Solo tranquilidad, sabiendo que todo siempre estará resuelto.
-"
+            tag="About Us"
+            title="Nos encargamos de todo. Tu solo disfrutas "
+            description="Aitextoo"
             metrics={[
-              { value: "2,500+", title: "Entregas completadas" },
-              { value: "98%", title: "Clientes felices" },
+              {
+                value: "2,500+",                title: "Systems installed and serviced"},
+              {
+                value: "98%",                title: "Customer satisfaction rate"},
             ]}
             imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-2.jpg"
+            imageAlt="Commercial HVAC units on rooftop"
+            mediaBadge={{
+              text: "Active Now",              avatarSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-3.jpg",              avatarAlt: "Technician"
+            }}
             mediaAnimation="slide-up"
             metricsAnimation="slide-up"
             useInvertedBackground={false}
@@ -74,27 +86,82 @@ export default function HvacPage() {
         </div>
         <div id="services" data-section="services">
           <FeatureCardOne
-            title="Así funciona"
-            description="Nos encargamos de todo para que tu no tengas que preocuparte por nada. "
-            buttons={[{ text: "Hablar por WhatsApp", href: "https://wa.me/573011471991" }]}
+            title="Our Services"
+            description="From installations to emergency repairs, we have your comfort covered."
+            buttons={[{ text: "Hablar por WhatsApp", href: "#contact" }]}
+            buttonAnimation="slide-up"
             features={[
-              { title: "Elegimos contigo ", description: "Te ayudamos a elegir lo mejor según tu peludo. ", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUhrqIzikJzQFgBimWgvnkX4XL/uploaded-1775825783516-zf3bdx3i.jpg" },
-              { title: "Gestionamos todo ", description: "Pedidos, tiempos y seguimiento sin que tu tengas que intervenir. ", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUhrqIzikJzQFgBimWgvnkX4XL/uploaded-1775828574646-aodre0b5.jpg" },
-              { title: "Lo recibes en tu puerta ", description: "Recibes puntual y sin largos tiempos de envió. ", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-6.jpg" },
+              {
+                title: "AC Installation",                description: "Expert installation of high-efficiency air conditioning systems for homes and commercial spaces.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-4.jpg?_wi=1",                imageAlt: "AC installation service"},
+              {
+                title: "Heating Systems",                description: "Complete furnace and heat pump installations to keep you warm through every winter.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-5.jpg",                imageAlt: "Heating system service"},
+              {
+                title: "Maintenance Plans",                description: "Preventative maintenance programs that extend the life of your system and reduce energy costs.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-6.jpg?_wi=1",                imageAlt: "HVAC maintenance"},
+              {
+                title: "Emergency Repairs",                description: "24/7 emergency repair service — we respond fast when your system breaks down unexpectedly.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-7.jpg?_wi=1",                imageAlt: "Emergency HVAC repair"},
+              {
+                title: "Duct Cleaning",                description: "Professional duct cleaning to improve air quality and system efficiency throughout your property.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-8.jpg?_wi=1",                imageAlt: "Duct cleaning service"},
+              {
+                title: "System Inspections",                description: "Thorough inspections with detailed reports and transparent recommendations — no hidden fees.",                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-9.jpg",                imageAlt: "HVAC system inspection"},
             ]}
             gridVariant="uniform-all-items-equal"
+            uniformGridCustomHeightClasses="aspect-square"
+            gridClassName="md:!grid-cols-3"
+            carouselThreshold={7}
             animationType="slide-up"
             textboxLayout="default"
             useInvertedBackground={false}
           />
         </div>
+        <FeatureBorderGlow
+          title="Why Choose AirPro"
+          description="What sets us apart from the rest"
+          features={[
+            {
+              icon: ShieldCheck,
+              title: "Reliability & Trust",              description: "Looking for a dependable HVAC company? We arrive on time and do the job right."},
+            {
+              icon: Wrench,
+              title: "Quality Workmanship",              description: "Our skilled technicians excel in various HVAC repairs, using only top-quality materials."},
+            {
+              icon: DollarSign,
+              title: "Fair & Transparent Pricing",              description: "No surprises here! We offer clear quotes and fair pricing for quality work."},
+          ]}
+          textboxLayout="default"
+          animationType="slide-up"
+          useInvertedBackground={false}
+        />
+
+        <FeatureCardEight
+          title="How It Works"
+          description="Our simple process from first call to finished job"
+          features={[
+            {
+              title: "Schedule a Call",              description: "Contact us by phone or online to describe your HVAC issue. We'll find a time that works for you.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-6.jpg?_wi=2",              imageAlt: "Scheduling a service call"},
+            {
+              title: "On-Site Diagnosis",              description: "A certified technician arrives on time, inspects your system, and explains the issue with a clear quote.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-7.jpg?_wi=2",              imageAlt: "Technician diagnosing HVAC system"},
+            {
+              title: "Expert Repair or Install",              description: "We complete the work using premium parts and proven techniques — most jobs done same day.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-4.jpg?_wi=2",              imageAlt: "HVAC repair in progress"},
+            {
+              title: "Quality Guarantee",              description: "We test everything before we leave and back all work with our satisfaction guarantee.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-8.jpg?_wi=2",              imageAlt: "Final quality check"},
+          ]}
+          textboxLayout="default"
+          useInvertedBackground={false}
+        />
         <div id="testimonials" data-section="testimonials">
           <TestimonialCardThirteen
-            title="Lo que dicen nuestros clientes"
-            description="La tranquilidad de saber que sus mascotas están bien nutridas."
+            title="What Our Clients Say"
+            description="Hear from homeowners and businesses who trust AirPro HVAC."
             testimonials={[
-              { id: "1", name: "James R.", handle: "Dueño de Zeus (Labrador)", testimonial: "El servicio es impecable y siempre llegan a tiempo.", rating: 5 },
-              { id: "2", name: "Linda M.", handle: "Dueña de Max (Bulldog Francés)", testimonial: "Se siente como si mi Max tuviese padrastro porque se encargan de todo.", rating: 5 },
+              {
+                id: "1",                name: "James R.",                handle: "Homeowner, Austin TX",                testimonial: "AirPro replaced our entire AC system in one day. The crew was professional, clean, and the new unit runs quieter than anything we've had before. Highly recommend.",                rating: 5,
+                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/team-1.jpg",                imageAlt: "James R."},
+              {
+                id: "2",                name: "Linda M.",                handle: "Business Owner, Dallas TX",                testimonial: "We use AirPro for all three of our office locations. Their maintenance plans have saved us thousands in emergency repairs. Always on time, always honest.",                rating: 5,
+                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/team-2.jpg",                imageAlt: "Linda M."},
+              {
+                id: "3",                name: "Carlos D.",                handle: "Homeowner, Houston TX",                testimonial: "Our furnace broke down on the coldest night of the year. AirPro had someone at our door within two hours. Fixed it on the spot. Can't thank them enough.",                rating: 5,
+                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/team-3.jpg",                imageAlt: "Carlos D."},
             ]}
             showRating={true}
             animationType="slide-up"
@@ -104,36 +171,72 @@ export default function HvacPage() {
         </div>
         <div id="faq" data-section="faq">
           <FaqSplitText
-            sideTitle="Preguntas Frecuentes"
-            buttons={[{ text: "Hablar por WhatsApp", href: "https://wa.me/573011471991" }]}
+            sideTitle="Frequently Asked Questions"
+            buttons={[{ text: "Hablar por WhatsApp", href: "#contact" }]}
+            buttonAnimation="slide-up"
             faqsAnimation="slide-up"
+            textPosition="left"
             useInvertedBackground={false}
             faqs={[
-              { id: "1", title: "¿Tienen envíos diarios?", content: "Realizamos entregas todos los días de 8am a 6pm." },
-              { id: "2", title: "¿Cómo gestiono mi suscripción?", content: "Puedes modificarla o cancelarla desde nuestro WhatsApp en cualquier momento." },
+              {
+                id: "1",                title: "Do you offer 24/7 emergency service?",                content: "Yes! We provide round-the-clock emergency HVAC service. If your system breaks down in the middle of the night or on a weekend, call us and a technician will be at your door as soon as possible."},
+              {
+                id: "2",                title: "How often should I service my HVAC system?",                content: "We recommend servicing your system at least twice a year — once before summer for cooling and once before winter for heating. Regular maintenance extends your system's life and keeps energy bills low."},
+              {
+                id: "3",                title: "What brands do you install and repair?",                content: "We work with all major HVAC brands including Carrier, Trane, Lennox, Daikin, Rheem, and more. Our technicians are trained and certified across multiple manufacturers."},
+              {
+                id: "4",                title: "Do you offer financing options?",                content: "Yes, we offer flexible financing plans for new installations and major repairs. Ask about our 0% interest options so you can stay comfortable without straining your budget."},
+              {
+                id: "5",                title: "How long does a typical installation take?",                content: "Most residential HVAC installations are completed in one day. Larger commercial projects may take 2-3 days depending on the scope. We'll give you an accurate timeline during your consultation."},
             ]}
           />
         </div>
+
         <div id="contact" data-section="contact">
           <ContactCTA
-            tag="Contacto"
+            tag="Get in Touch"
             tagIcon={Phone}
-            title="¿Listo para simplificar tu vida?"
-            description="Contáctanos hoy mismo y recibe el alimento premium de tu mascota sin complicaciones."
-            buttons={[{ text: "Hablar por WhatsApp", href: "https://wa.me/573011471991" }]}
+            title="Ready to Stay Comfortable Year-Round?"
+            description="Whether you need a new installation, emergency repair, or routine maintenance — our team is ready to help. Call us today or request a free quote."
+            buttons={[
+              { text: "Hablar por WhatsApp", href: "#contact" },
+            ]}
             background={{ variant: "plain" }}
             useInvertedBackground={false}
           />
         </div>
+
         <div id="footer" data-section="footer">
           <FooterMedia
-            logoText="Cartagena Pet Delivery"
+            logoText="AirPro HVAC"
             imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-10.jpg"
+            imageAlt="HVAC technician inspecting equipment"
             columns={[
-              { title: "Servicios", items: [{ label: "Suscripciones", href: "#services" }] },
-              { title: "Empresa", items: [{ label: "Sobre Nosotros", href: "#about" }] },
+              {
+                title: "Services",                items: [
+                  { label: "AC Installation", href: "#services" },
+                  { label: "Heating Systems", href: "#services" },
+                  { label: "Maintenance Plans", href: "#services" },
+                  { label: "Emergency Repairs", href: "#services" },
+                ],
+              },
+              {
+                title: "Company",                items: [
+                  { label: "About Us", href: "#about" },
+                  { label: "Testimonials", href: "#testimonials" },
+                  { label: "FAQ", href: "#faq" },
+                  { label: "Contact", href: "#contact" },
+                ],
+              },
+              {
+                title: "Contact",                items: [
+                  { label: "(555) 987-6543", href: "tel:5559876543" },
+                  { label: "info@airprohvac.com", href: "mailto:info@airprohvac.com" },
+                  { label: "Austin, TX" },
+                ],
+              },
             ]}
-            copyrightText="© 2026 | Cartagena Pet Delivery"
+            copyrightText="© 2026 | AirPro HVAC"
           />
         </div>
       </ReactLenis>
