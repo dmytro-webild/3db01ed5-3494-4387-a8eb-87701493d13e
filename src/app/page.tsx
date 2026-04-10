@@ -67,7 +67,7 @@ export default function HvacPage() {
         <div id="about" data-section="about">
           <MetricSplitMediaAbout
             tag="About Us"
-            title="Llegamos a tu puerta. Sin esfuerzo."
+            title="Nos encargamos de todo. Tu solo disfrutas "
             description="Aitextoo"
             metrics={[
               {
