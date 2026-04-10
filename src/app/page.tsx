@@ -58,7 +58,7 @@ export default function HvacPage() {
               { text: "Our Services", href: "#services" },
             ]}
             buttonAnimation="slide-up"
-            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-1.jpg"
+            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUhrqIzikJzQFgBimWgvnkX4XL/uploaded-1775781781922-wgri0604.jpg"
             imageAlt="HVAC technician performing system maintenance"
             showDimOverlay={true}
           />
