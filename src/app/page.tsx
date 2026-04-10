@@ -6,13 +6,11 @@ import NavbarLayoutFloatingInline from "@/components/navbar/NavbarLayoutFloating
 import HeroOverlay from "@/components/sections/hero/HeroOverlay";
 import MetricSplitMediaAbout from "@/components/sections/about/MetricSplitMediaAbout";
 import FeatureCardOne from "@/components/sections/feature/FeatureCardOne";
-import FeatureBorderGlow from "@/components/sections/feature/featureBorderGlow/FeatureBorderGlow";
-import FeatureCardEight from "@/components/sections/feature/FeatureCardEight";
 import TestimonialCardThirteen from "@/components/sections/testimonial/TestimonialCardThirteen";
 import FaqSplitText from "@/components/sections/faq/FaqSplitText";
 import ContactCTA from "@/components/sections/contact/ContactCTA";
 import FooterMedia from "@/components/sections/footer/FooterMedia";
-import { ShieldCheck, Wrench, DollarSign, Phone } from "lucide-react";
+import { Phone } from "lucide-react";
 
 export default function HvacPage() {
   return (
@@ -61,9 +59,8 @@ export default function HvacPage() {
 
         <div id="about" data-section="about">
           <MetricSplitMediaAbout
-            tag="About Us"
-            title="Nos encargamos de todo. Tu solo disfrutas "
-            description="Aitextoo"
+            title="Nos encargamos de todo. Tu solo disfrutas"
+            description="Selección premium, envíos programados y atención personalizada para que tu mascota siempre tenga lo mejor."
             metrics={[
               { value: "2,500+", title: "Entregas completadas" },
               { value: "98%", title: "Clientes felices" },
@@ -76,13 +73,13 @@ export default function HvacPage() {
         </div>
         <div id="services" data-section="services">
           <FeatureCardOne
-            title="Our Services"
-            description="From installations to emergency repairs, we have your comfort covered."
+            title="Nuestros Servicios"
+            description="Soluciones integrales para la alimentación y cuidado de tu mascota."
             buttons={[{ text: "Hablar por WhatsApp", href: "https://wa.me/573011471991" }]}
             features={[
-              { title: "AC Installation", description: "Expert installation of high-efficiency air conditioning systems.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-4.jpg?_wi=1" },
-              { title: "Heating Systems", description: "Complete furnace and heat pump installations.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-5.jpg" },
-              { title: "Maintenance Plans", description: "Preventative programs to extend system life.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-6.jpg?_wi=1" },
+              { title: "Suscripciones Mensuales", description: "Recibe el alimento favorito de tu mascota automáticamente cada mes.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-4.jpg" },
+              { title: "Entrega Express", description: "Llegamos a toda la ciudad en tiempo record.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-5.jpg" },
+              { title: "Asesoría Nutricional", description: "Te ayudamos a elegir la mejor dieta según su raza y edad.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-6.jpg" },
             ]}
             gridVariant="uniform-all-items-equal"
             animationType="slide-up"
@@ -90,25 +87,13 @@ export default function HvacPage() {
             useInvertedBackground={false}
           />
         </div>
-        <FeatureBorderGlow
-          title="Why Choose AirPro"
-          description="What sets us apart from the rest"
-          features={[
-            { icon: ShieldCheck, title: "Reliability & Trust", description: "Looking for a dependable HVAC company?" },
-            { icon: Wrench, title: "Quality Workmanship", description: "Our skilled technicians excel in repairs." },
-            { icon: DollarSign, title: "Fair & Transparent Pricing", description: "No surprises here!" },
-          ]}
-          textboxLayout="default"
-          animationType="slide-up"
-          useInvertedBackground={false}
-        />
         <div id="testimonials" data-section="testimonials">
           <TestimonialCardThirteen
-            title="What Our Clients Say"
-            description="Hear from homeowners and businesses who trust us."
+            title="Lo que dicen nuestros clientes"
+            description="La tranquilidad de saber que sus mascotas están bien nutridas."
             testimonials={[
-              { id: "1", name: "James R.", handle: "Homeowner", testimonial: "Fantastic service, on time and clean.", rating: 5 },
-              { id: "2", name: "Linda M.", handle: "Business Owner", testimonial: "We use their maintenance plans, highly recommended.", rating: 5 },
+              { id: "1", name: "James R.", handle: "Dueño de Labrador", testimonial: "El servicio es impecable y siempre llegan a tiempo.", rating: 5 },
+              { id: "2", name: "Linda M.", handle: "Dueña de Gatitos", testimonial: "Desde que uso el servicio, mi vida es mucho más fácil.", rating: 5 },
             ]}
             showRating={true}
             animationType="slide-up"
@@ -118,21 +103,22 @@ export default function HvacPage() {
         </div>
         <div id="faq" data-section="faq">
           <FaqSplitText
-            sideTitle="Frequently Asked Questions"
+            sideTitle="Preguntas Frecuentes"
             buttons={[{ text: "Hablar por WhatsApp", href: "https://wa.me/573011471991" }]}
             faqsAnimation="slide-up"
+            useInvertedBackground={false}
             faqs={[
-              { id: "1", title: "Do you offer emergency service?", content: "Yes, we provide 24/7 service." },
-              { id: "2", title: "How often should I service?", content: "We recommend twice a year." },
+              { id: "1", title: "¿Tienen envíos diarios?", content: "Realizamos entregas todos los días de 8am a 6pm." },
+              { id: "2", title: "¿Cómo gestiono mi suscripción?", content: "Puedes modificarla o cancelarla desde nuestro WhatsApp en cualquier momento." },
             ]}
           />
         </div>
         <div id="contact" data-section="contact">
           <ContactCTA
-            tag="Get in Touch"
+            tag="Contacto"
             tagIcon={Phone}
-            title="Ready to Stay Comfortable Year-Round?"
-            description="Call us today or request a free quote via WhatsApp."
+            title="¿Listo para simplificar tu vida?"
+            description="Contáctanos hoy mismo y recibe el alimento premium de tu mascota sin complicaciones."
             buttons={[{ text: "Hablar por WhatsApp", href: "https://wa.me/573011471991" }]}
             background={{ variant: "plain" }}
             useInvertedBackground={false}
@@ -140,13 +126,13 @@ export default function HvacPage() {
         </div>
         <div id="footer" data-section="footer">
           <FooterMedia
-            logoText="AirPro HVAC"
+            logoText="Cartagena Pet Delivery"
             imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-10.jpg"
             columns={[
-              { title: "Services", items: [{ label: "Installation", href: "#services" }] },
-              { title: "Company", items: [{ label: "About", href: "#about" }] },
+              { title: "Servicios", items: [{ label: "Suscripciones", href: "#services" }] },
+              { title: "Empresa", items: [{ label: "Sobre Nosotros", href: "#about" }] },
             ]}
-            copyrightText="© 2026 | AirPro HVAC"
+            copyrightText="© 2026 | Cartagena Pet Delivery"
           />
         </div>
       </ReactLenis>
