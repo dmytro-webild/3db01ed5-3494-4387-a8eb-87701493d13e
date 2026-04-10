@@ -73,8 +73,8 @@ export default function HvacPage() {
         </div>
         <div id="services" data-section="services">
           <FeatureCardOne
-            title="Nuestros Servicios"
-            description="Soluciones integrales para la alimentación y cuidado de tu mascota."
+            title="Así funciona"
+            description="Nos encargamos de todo para que tu no tengas que preocuparte por nada. "
             buttons={[{ text: "Hablar por WhatsApp", href: "https://wa.me/573011471991" }]}
             features={[
               { title: "Suscripciones Mensuales", description: "Recibe el alimento favorito de tu mascota automáticamente cada mes.", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-4.jpg" },
