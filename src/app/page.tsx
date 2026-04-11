@@ -77,8 +77,8 @@ export default function HvacPage() {
 
         <div id="about" data-section="about">
           <MetricSplitMediaAbout
-            title="Así debería sentirse cuidar de tu mascota "
-            description="Sin urgencias, sin olvidos, sin interrupciones. Solo tranquilidad, sabiendo que todo siempre estará resuelto."
+            title="Así funciona "
+            description="Desde la selección hasta la entrega, nos encargamos de cada detalle para que siempre tenga lo mejor, sin que tú tengas que preocuparte. "
             metrics={[
               { value: "2,500+", title: "Entregas completadas" },
               { value: "98%", title: "Clientes felices" },
