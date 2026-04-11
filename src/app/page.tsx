@@ -57,26 +57,10 @@ export default function HvacPage() {
           />
         </div>
 
-        <div id="about" data-section="about">
-          <MetricSplitMediaAbout
-            title="Asi deberia sentirse cuidar de tu mascota "
-            description="Sin urgencias, sin olvidos, sin interrupciones. Solo tranquilidad, sabiendo que todo siempre estará resuelto.
-"
-            metrics={[
-              { value: "2,500+", title: "Entregas completadas" },
-              { value: "98%", title: "Clientes felices" },
-            ]}
-            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-2.jpg"
-            mediaAnimation="slide-up"
-            metricsAnimation="slide-up"
-            useInvertedBackground={false}
-          />
-        </div>
-        <div id="services" data-section="services">
+        <div id="services" data-section="services" className="bg-[#EFEAE0]">
           <FeatureCardOne
             title="Así funciona"
-            description="Desde la selección hasta la entrega, cuidamos cada detalle para que él o ella siempre tenga lo mejor sin que tú tengas que preocuparte por nada. 
-"
+            description="Desde la selección hasta la entrega, cuidamos cada detalle para que él o ella siempre tenga lo mejor sin que tú tengas que preocuparte por nada."
             buttons={[{ text: "Hablar por WhatsApp", href: "https://wa.me/573011471991" }]}
             features={[
               { title: "Elegimos contigo ", description: "Te ayudamos a elegir lo mejor según tu peludo. ", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUhrqIzikJzQFgBimWgvnkX4XL/uploaded-1775825783516-zf3bdx3i.jpg" },
@@ -87,8 +71,25 @@ export default function HvacPage() {
             animationType="slide-up"
             textboxLayout="default"
             useInvertedBackground={false}
+            cardClassName="bg-[#FFFFFF]"
           />
         </div>
+
+        <div id="about" data-section="about">
+          <MetricSplitMediaAbout
+            title="Asi deberia sentirse cuidar de tu mascota "
+            description="Sin urgencias, sin olvidos, sin interrupciones. Solo tranquilidad, sabiendo que todo siempre estará resuelto."
+            metrics={[
+              { value: "2,500+", title: "Entregas completadas" },
+              { value: "98%", title: "Clientes felices" },
+            ]}
+            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-2.jpg"
+            mediaAnimation="slide-up"
+            metricsAnimation="slide-up"
+            useInvertedBackground={false}
+          />
+        </div>
+
         <div id="testimonials" data-section="testimonials">
           <TestimonialCardThirteen
             title="Lo que dicen nuestros clientes"
