@@ -75,7 +75,8 @@ export default function HvacPage() {
         <div id="services" data-section="services">
           <FeatureCardOne
             title="Así funciona"
-            description="Nos encargamos de todo para que tu no tengas que preocuparte por nada. "
+            description="Desde la selección hasta la entrega, cuidamos cada detalle para que él o ella siempre tenga lo mejor sin que tú tengas que preocuparte por nada. 
+"
             buttons={[{ text: "Hablar por WhatsApp", href: "https://wa.me/573011471991" }]}
             features={[
               { title: "Elegimos contigo ", description: "Te ayudamos a elegir lo mejor según tu peludo. ", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUhrqIzikJzQFgBimWgvnkX4XL/uploaded-1775825783516-zf3bdx3i.jpg" },
