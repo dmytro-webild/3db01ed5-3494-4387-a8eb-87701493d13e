@@ -59,8 +59,8 @@ export default function HvacPage() {
 
         <div id="services" data-section="services" className="bg-[#EFEAE0]">
           <FeatureCardOne
-            title="Así funciona"
-            description="Desde la selección hasta la entrega, nos encargamos de cada detalle para que él o ella siempre tenga lo mejor sin que tú tengas que preocuparte por nada."
+            title="Así debería sentirse cuidar de tu mascota"
+            description="Sin urgencias, sin olvidos, sin interrupciones. Solo tranquilidad, sabiendo que todo siempre estará resuelto."
             buttons={[{ text: "Hablar por WhatsApp", href: "https://wa.me/573011471991" }]}
             features={[
               { title: "Elegimos contigo ", description: "Te ayudamos a elegir lo mejor según tu peludo. ", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUhrqIzikJzQFgBimWgvnkX4XL/uploaded-1775825783516-zf3bdx3i.jpg" },
