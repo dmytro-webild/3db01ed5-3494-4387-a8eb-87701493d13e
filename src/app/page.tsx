@@ -83,7 +83,8 @@ export default function HvacPage() {
               { value: "2,500+", title: "Entregas completadas" },
               { value: "98%", title: "Clientes felices" },
             ]}
-            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-2.jpg"
+            videoSrc="https://videos.pexels.com/video-files/4255554/4255554-sd_506_960_24fps.mp4"
+            videoAriaLabel="Relaxed basset hound in a minimalist home"
             mediaAnimation="slide-up"
             metricsAnimation="slide-up"
             useInvertedBackground={false}
