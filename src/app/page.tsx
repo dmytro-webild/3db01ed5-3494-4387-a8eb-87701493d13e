@@ -80,7 +80,7 @@ export default function HvacPage() {
             features={[
               { title: "Elegimos contigo ", description: "Te ayudamos a elegir lo mejor según tu peludo. ", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUhrqIzikJzQFgBimWgvnkX4XL/uploaded-1775825783516-zf3bdx3i.jpg" },
               { title: "Gestionamos todo ", description: "Pedidos, tiempos y seguimiento sin que tu tengas que intervenir. ", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUhrqIzikJzQFgBimWgvnkX4XL/uploaded-1775871269099-tfsf3iex.png" },
-              { title: "Lo recibes en tu puerta ", description: "Recibes puntual y sin largos tiempos de envió. ", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUhrqIzikJzQFgBimWgvnkX4XL/uploaded-1775872579755-99c71kpc.jpg" },
+              { title: "Lo recibes en tu puerta ", description: "Recibes puntual y sin largos tiempos de envió. ", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUhrqIzikJzQFgBimWgvnkX4XL/uploaded-1775872703376-o2igmv1f.jpg" },
             ]}
             gridVariant="uniform-all-items-equal"
             animationType="slide-up"
