@@ -80,8 +80,8 @@ export default function HvacPage() {
             title="Así funciona "
             description="Desde la selección hasta la entrega, nos encargamos de cada detalle para que siempre tenga lo mejor, sin que tú tengas que preocuparte. "
             metrics={[
-              { value: "2,500+", title: "Entregas completadas" },
-              { value: "98%", title: "Clientes felices" },
+              { value: "20+", title: "Entregas completadas este mes" },
+              { value: "95%", title: "Clientes felices" },
             ]}
             videoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUhrqIzikJzQFgBimWgvnkX4XL/uploaded-1775878293170-xfkdurn4.mp4"
             videoAriaLabel="Relaxed basset hound in a minimalist home"
