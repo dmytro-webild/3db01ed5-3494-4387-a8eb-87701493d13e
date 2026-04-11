@@ -83,7 +83,7 @@ export default function HvacPage() {
               { value: "20+", title: "Entregas completadas este mes" },
               { value: "95%", title: "Clientes felices" },
             ]}
-            videoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUhrqIzikJzQFgBimWgvnkX4XL/uploaded-1775878293170-xfkdurn4.mp4"
+            videoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUhrqIzikJzQFgBimWgvnkX4XL/uploaded-1775879290464-y739c0kt.mp4"
             videoAriaLabel="Relaxed basset hound in a minimalist home"
             mediaAnimation="slide-up"
             metricsAnimation="slide-up"
