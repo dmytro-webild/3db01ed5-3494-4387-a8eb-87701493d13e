@@ -99,6 +99,7 @@ export default function HvacPage() {
             description="Recibe todo lo que necesitas sin complicaciones."
             animationType="slide-up"
             textboxLayout="default"
+            useInvertedBackground={false}
             features={[
                 { title: "Selección", description: "Eliges tus favoritos.", phoneOne: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-10.jpg" }, phoneTwo: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-11.jpg" } },
                 { title: "Entrega", description: "Recibe en tu puerta.", phoneOne: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-12.jpg" }, phoneTwo: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-13.jpg" } }
