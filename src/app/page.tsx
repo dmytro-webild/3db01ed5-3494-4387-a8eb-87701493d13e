@@ -102,7 +102,9 @@ export default function HvacPage() {
             useInvertedBackground={false}
             features={[
                 { title: "Selección", description: "Eliges tus favoritos.", phoneOne: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-10.jpg?_wi=1" }, phoneTwo: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-11.jpg" } },
-                { title: "Entrega", description: "Recibe en tu puerta.", phoneOne: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-12.jpg" }, phoneTwo: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-13.jpg" } }
+                { title: "Entrega", description: "Recibe en tu puerta.", phoneOne: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-12.jpg" }, phoneTwo: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-13.jpg" } },
+                { title: "Verificación", description: "Calidad asegurada.", phoneOne: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-14.jpg" }, phoneTwo: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-15.jpg" } },
+                { title: "Disfrute", description: "Tu mascota feliz.", phoneOne: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-16.jpg" }, phoneTwo: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-17.jpg" } }
             ]}
           />
         </div>
