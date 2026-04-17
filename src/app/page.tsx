@@ -95,8 +95,8 @@ export default function HvacPage() {
         <div id="feature-nine" data-section="feature-nine">
           <FeatureCardNine
             showStepNumbers={true}
-            title="Proceso Sencillo"
-            description="Recibe todo lo que necesitas sin complicaciones."
+            title="Así se vive con nosotros "
+            description="Momentos reales de quienes ya dejaron de preocuparse."
             animationType="slide-up"
             textboxLayout="default"
             useInvertedBackground={false}
