@@ -77,7 +77,7 @@ export default function HvacPage() {
 
         <div id="about" data-section="about">
           <MetricSplitMediaAbout
-            title="Así funciona "
+            title="Todo bajo control "
             description="Desde la selección hasta la entrega, nos encargamos de cada detalle para que siempre tenga lo mejor, sin que tú tengas que preocuparte. "
             metrics={[
               { value: "20+", title: "Entregas completadas este mes" },
