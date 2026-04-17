@@ -81,8 +81,8 @@ export default function HvacPage() {
             title="Todo bajo control "
             description="Desde la selección hasta la entrega, nos encargamos de cada detalle para que siempre tenga lo mejor, sin que tú tengas que preocuparte. "
             metrics={[
-              { value: "20+", title: "Entregas completadas este mes" },
-              { value: "95%", title: "Clientes felices" },
+              { value: "Entrega puntual, siempre ", title: "Recibes tu pedido cuando lo necesitas, sin retrasos. " },
+              { value: "Atención directa por WhatsApp ", title: "Resolvemos cualquier duda en minutos, sin procesos complicados. " },
             ]}
             videoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUhrqIzikJzQFgBimWgvnkX4XL/uploaded-1775879290464-y739c0kt.mp4"
             videoAriaLabel="Relaxed basset hound in a minimalist home"
