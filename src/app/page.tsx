@@ -101,7 +101,7 @@ export default function HvacPage() {
             textboxLayout="default"
             useInvertedBackground={false}
             features={[
-                { title: "Selección", description: "Eliges tus favoritos.", phoneOne: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-10.jpg" }, phoneTwo: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-11.jpg" } },
+                { title: "Selección", description: "Eliges tus favoritos.", phoneOne: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-10.jpg?_wi=1" }, phoneTwo: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-11.jpg" } },
                 { title: "Entrega", description: "Recibe en tu puerta.", phoneOne: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-12.jpg" }, phoneTwo: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-13.jpg" } }
             ]}
           />
@@ -147,7 +147,7 @@ export default function HvacPage() {
         <div id="footer" data-section="footer">
           <FooterMedia
             logoText="Cartagena Pet Delivery"
-            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-10.jpg"
+            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-10.jpg?_wi=2"
             columns={[
               { title: "Servicios", items: [{ label: "Suscripciones", href: "#services" }] },
               { title: "Empresa", items: [{ label: "Sobre Nosotros", href: "#about" }] },
