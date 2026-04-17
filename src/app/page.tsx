@@ -6,6 +6,7 @@ import NavbarLayoutFloatingInline from "@/components/navbar/NavbarLayoutFloating
 import HeroOverlay from "@/components/sections/hero/HeroOverlay";
 import MetricSplitMediaAbout from "@/components/sections/about/MetricSplitMediaAbout";
 import FeatureCardOne from "@/components/sections/feature/FeatureCardOne";
+import FeatureCardNine from "@/components/sections/feature/FeatureCardNine";
 import TestimonialCardThirteen from "@/components/sections/testimonial/TestimonialCardThirteen";
 import FaqSplitText from "@/components/sections/faq/FaqSplitText";
 import ContactCTA from "@/components/sections/contact/ContactCTA";
@@ -88,6 +89,20 @@ export default function HvacPage() {
             mediaAnimation="slide-up"
             metricsAnimation="slide-up"
             useInvertedBackground={false}
+          />
+        </div>
+
+        <div id="feature-nine" data-section="feature-nine">
+          <FeatureCardNine
+            showStepNumbers={true}
+            title="Proceso Sencillo"
+            description="Recibe todo lo que necesitas sin complicaciones."
+            animationType="slide-up"
+            textboxLayout="default"
+            features={[
+                { title: "Selección", description: "Eliges tus favoritos.", phoneOne: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-10.jpg" }, phoneTwo: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-11.jpg" } },
+                { title: "Entrega", description: "Recibe en tu puerta.", phoneOne: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-12.jpg" }, phoneTwo: { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/hvac/img-13.jpg" } }
+            ]}
           />
         </div>
 
